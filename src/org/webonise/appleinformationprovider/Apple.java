@@ -1,16 +1,12 @@
 package org.webonise.appleinformationprovider;
 
 public class Apple {
-    private String color;
-    private int weight;
+    private final String color;
+    private final int weight;
 
-    public Apple(String color, int weight) {
+    public Apple(final String color, final int weight) {
         this.color = color;
         this.weight = weight;
-    }
-
-    public String getColor() {
-        return color;
     }
 
     public int getWeight() {
